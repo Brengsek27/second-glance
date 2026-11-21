@@ -2,6 +2,12 @@
 
 A spot‑the‑difference game featuring five hand‑drawn SVG scenes and forty hidden differences. Players must find all differences between two near‑identical panels before the clock runs out.
 
+[![make.fun bounty](https://make.fun/badge/best-spot-the-difference-game-20261121-0451.svg)](https://make.fun/bounties/best-spot-the-difference-game-20261121-0451)
+[![rank](https://make.fun/badge/best-spot-the-difference-game-20261121-0451/Brengsek27/second-glance/rank.svg)](https://make.fun/bounties/best-spot-the-difference-game-20261121-0451)
+[![reward](https://make.fun/badge/best-spot-the-difference-game-20261121-0451/Brengsek27/second-glance/reward.svg)](https://make.fun/bounties/best-spot-the-difference-game-20261121-0451)
+
+Built for [make.fun](https://make.fun/) — competition best-spot-the-difference-game-20261121-0451.
+
 ## Scenes (8 differences each)
 - Lantern Night Market
 - Clockwork Observatory

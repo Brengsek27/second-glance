@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SECOND GLANCE</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="src/main.js"></script>
+</head>
+<body>
+  <!-- HUD -->
+  <div id="hud" style="display:flex;justify-content:space-between;height:50px;align-items:center;">
+    <div id="brand" style="display:flex;align-items:center;">
+      <div style="width:30px;height:30px;background:radial-gradient(circle, #fff, #000);border-radius:50%;margin-right:8px;"></div>
+      <span>SECOND GLANCE</span>
+      <span id="scene-name" style="margin-left:12px;">Scene 1</span>
+      <span id="scene-caption" style="margin-left:8px;">Scene 1 of 5</span>
+    </div>
+    <div id="counter" style="font-size:28px;font-weight:bold;">Differences: 0</div>
+    <div id="chips" style="display:flex;gap:8px;">
+      <button id="hint-btn">Hint</button>
+      <button id="pause-btn">Pause</button>
+      <button id="sound-btn">Sound</button>
+      <span id="timer">00:00</span>
+      <span id="score">0</span>
+      <span id="streak">0</span>
+    </div>
+  </div>
+  <!-- Pressure Bar -->
+  <div id="pressure-bar" style="height:5px;background:#555;margin:2px 0;"></div>
+  <!-- Stage -->
+  <div id="stage" style="display:flex;justify-content:center;gap:20px;">
+    <div id="panel-original" class="panel">
+      <div class="label">ORIGINAL</div>
+      <div id="original-container"></div>
+    </div>
+    <div id="vs-medallion" style="align-self:center;">VS</div>
+    <div id="panel-spot" class="panel">
+      <div class="label">SPOT THE CHANGES</div>
+      <div id="spot-container"></div>
+    </div>
+  </div>
+  <!-- Bottom Bar -->
+  <div id="bottom-bar" style="display:flex;justify-content:space-between;align-items:center;height:40px;">
+    <div id="pips" style="display:flex;gap:4px;">
+      <!-- eight pips -->
+      <span class="pip" id="pip-1"></span>
+      <span class="pip" id="pip-2"></span>
+      <span class="pip" id="pip-3"></span>
+      <span class="pip" id="pip-4"></span>
+      <span class="pip" id="pip-5"></span>
+      <span class="pip" id="pip-6"></span>
+      <span class="pip" id="pip-7"></span>
+      <span class="pip" id="pip-8"></span>
+    </div>
+    <div id="message-line"></div>
+    <div id="controls-hint">Press H for hint</div>
+  </div>
+  <!-- Overlays -->
+  <div id="overlay-title" class="overlay" style="display:none;">
+    <h1>SECOND GLANCE</h1>
+    <p>Five scenes, forty differences.</p>
+    <button id="start-btn">Start</button>
+    <ul>
+      <li>Find differences</li>
+      <li>Use hint wisely</li>
+    </ul>
+  </div>
+  <div id="overlay-scene-select" class="overlay" style="display:none;"></div>
+  <div id="overlay-pause" class="overlay" style="display:none;">
+    <button id="resume-btn">Resume</button>
+  </div>
+  <div id="overlay-scene-complete" class="overlay" style="display:none;">Scene Complete</div>
+  <div id="overlay-campaign-complete" class="overlay" style="display:none;">Campaign Complete</div>
+</body>
+</html>
+<!-- Design notes: page shell for SECOND GLANCE -->

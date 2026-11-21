@@ -1,0 +1,6 @@
+[
+  { "name": "1-cover.jpg", "query": "?shot=0:m1,m2,m3:97:340:3" },
+  { "name": "2-observatory.jpg", "query": "?shot=1:o1,o2,o3,o4,o5:61:520:2:hint=o6" },
+  { "name": "3-reef.jpg", "query": "?shot=2:r1,r2:88:210:1:lens" },
+  { "name": "4-complete.jpg", "query": "?shot=3:-:74:860:4:complete" }
+]
